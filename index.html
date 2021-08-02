@@ -1,0 +1,29 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모바일 프로젝트</title>
+</head>
+<body>
+    <h1>자바스크립트 127p</h1>
+    <script>
+        //디바이스를 가져옴
+        var info = navigator.userAgent.toLocaleUpperCase();
+        
+
+        //pc인지 모바일인지?
+        if(info.indexOf('windows') >= 0 || info.indexOf
+        ('macintosh') >= 0) {
+            //pc 홈페이지
+        location.href= "pc.html";
+        } else {
+            //mobile 홈페이지
+            location.href="mobile.html";
+        }
+        
+    </script>
+    
+</body>
+</html>
